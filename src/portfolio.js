@@ -3,6 +3,12 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
+const splashScreen = {
+  enabled: true, 
+  animation: splashAnimation,
+  duration: 2000 
+};
+
 const illustration = {
   animated: true 
 };
@@ -22,6 +28,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mazharhayat/",
   gmail: "mazharhayatdev@gmail.com",
   facebook: "https://www.facebook.com/JamMazharHayat", // space hata di
+  instagram: "",
+  twitter: "",
   display: true 
 };
 
@@ -31,14 +39,16 @@ const skillsSection = {
   skills: [
     emoji("⚡ Managing POS system and billing at Cafe Sajawal"),
     emoji("⚡ Front end Development with React and JavaScript"),
-    emoji("⚡ Teaching English Literature for ADP Students")
+    emoji("⚡ Teaching English Literature for ADP Students"),
+    emoji("⚡ MS Office, Data Entry and Computer Operations")
   ],
   softwareSkills: [
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" }
+    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "git", fontAwesomeClassname: "fab fa-git" }
   ],
   display: true 
 };
@@ -48,13 +58,15 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Govt College Bahawalpur",
+      logo: "",
       subHeader: "ADP ENGLISH LITERATURE",
-      duration: "September 2020- April 2022",
+      duration: "September 2020 - April 2022",
       desc: "Associated Degree Program English Literature.",
       descBullets: ["Studied Poetry, Drama, Romantic and Modern Literature"]
     },
     {
       schoolName: "Govt Boys School Khan Bela",
+      logo: "",
       subHeader: "General Science",
       duration: "September 2018 - April 2020",
       desc: "Computer Science and General Science",
@@ -67,7 +79,8 @@ const techStack = {
   viewSkillBars: true, 
   experience: [
     { Stack: "Frontend/Design", progressPercentage: "90%" },
-    { Stack: "Computer Operations", progressPercentage: "85%" }
+    { Stack: "Computer Operations", progressPercentage: "85%" },
+    { Stack: "MS Office", progressPercentage: "80%" }
   ],
   displayCodersrank: false
 };
@@ -77,4 +90,140 @@ const workExperiences = {
   experience: [
     {
       role: "Computer Operator",
-      company:
+      company: "Cafe Sajawal", // Is Cafe ki jaga Cafe Sajawal
+      companylogo: "", 
+      date: "Jan 2023 – Present", 
+      location: "Khanpur",
+      desc: "Handling computer operations and customer billing at Cafe Sajawal",
+      descBullets: [
+        "Managing POS system and daily billing",
+        "Customer service and order management", 
+        "Data entry and record keeping"
+      ]
+    }
+  ]
+};
+
+const openSource = {
+  showGithubProfile: "true", 
+  display: true 
+};
+
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
+  projects: [
+    {
+      image: "",
+      projectName: "Cafe Management System",
+      projectDesc: "POS and billing system made for Cafe Sajawal",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/mazharhayat-dev/cafe-system" }
+      ]
+    }
+  ],
+  display: true
+};
+
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆"),
+  subtitle: "Achievements, Certifications and Some Cool Stuff",
+  achievementsCards: [
+    {
+      title: "English Literature Competition",
+      subtitle: "Won 1st position in Inter-college English Essay Competition",
+      image: "",
+      imageAlt: "Award",
+      footerLink: [{ name: "View Certificate", url: "#" }]
+    },
+    {
+      title: "Computer Operator Training",
+      subtitle: "Completed 3 months training in MS Office and Data Entry",
+      image: "",
+      imageAlt: "Certificate",
+      footerLink: [{ name: "View Certificate", url: "#" }]
+    }
+  ],
+  display: true
+};
+
+const blogSection = {
+  title: "Blogs",
+  subtitle: "I love to write about English Literature and Computer Skills",
+  display: true,
+  blogs: [
+    {
+      url: "#", 
+      title: "How to Study English Literature for ADP",
+      description: "Tips and notes for ADP English students. Poetry, Drama and Novel guide."
+    }
+  ]
+};
+
+const talkSection = {
+  title: "Talks",
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE AND EXPERIENCE 🎤"),
+  talks: [
+    {
+      title: "ADP English Literature Guide",
+      subtitle: "Shared tips for Poetry, Drama and Novel with students",
+      slides_url: "",
+      event_url: "", 
+    }
+  ],
+  display: true 
+};
+
+const podcastSection = { 
+  title: "Podcasts & Talks",
+  subtitle: emoji("I LOVE TO TALK ABOUT ENGLISH LITERATURE & TECH 🎙️"),
+  podcast: [
+    {
+      title: "English Literature Podcast",
+      subtitle: "Discussed ADP English Syllabus, Poetry and Novel",
+      audio: "#", 
+    }
+  ],
+  display: true
+};
+
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+  display: true
+};
+
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-300-0000",
+  email_address: "mazharhayatdev@gmail.com"
+};
+
+const twitterDetails = {
+  userName: "twitter", 
+  display: false 
+};
+
+const isHireable = false; 
+
+export {
+  illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection, 
+  contactInfo,
+  twitterDetails,
+  isHireable,
+  resumeSection
+};
