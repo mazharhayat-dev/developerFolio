@@ -40,7 +40,7 @@ I love building beautiful websites and mobile apps.
 4. Deploy on Vercel or GitHub Pages
 
 ## 🤝 Contact
-- **Email**: your-email@gmail.com
+- **Email**: mazharhayatdev@gmail.com
 - **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com)
 - **GitHub**: [github.com/mazharhayat-dev](https://github.com/mazharhayat-dev)
 
