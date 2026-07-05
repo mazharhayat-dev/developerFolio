@@ -1,7 +1,5 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
@@ -21,8 +19,7 @@ const greeting = {
   subTitle: emoji(
     "A Computer Operator at Is Cafe Sajawal & ADP English Literature Student 🚀 Passionate about Web Development and Teaching."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1WheBNrj5cWo2owJd0qBiVMesbyTLUT1A/view?pli=1", // Khali kar diya. Resume button hatane ke liye
+  resumeLink: "https://drive.google.com/file/d/1WheBNrj5cWo2owJd0qBiVMesbyTLUT1A/view?pli=1",
   displayGreeting: true
 };
 
@@ -57,7 +54,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Govt College Bahawalpur",
-      logo: require("./assets/images/GovtLogo.png"),
       subHeader: "ADP ENGLISH LITERATURE",
       duration: "September 2020- April 2022",
       desc: "Associated Degree Program English Literature.",
@@ -65,7 +61,6 @@ const educationInfo = {
     },
     {
       schoolName: "Govt Boys School Khan Bela",
-      logo: require("./assets/images/GovtLogo.png"),
       subHeader: "General Science",
       duration: "September 2018 - April 2020",
       desc: "Computer Science and General Science",
@@ -112,13 +107,12 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/project2.png"),
       projectName: "Cafe Management System",
       projectDesc: "POS and billing system made for Is Cafe Sajawal",
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/yourusername/cafe-system"
+          url: "https://github.com/mazharhayat-dev/cafe-system" // apna github link daal dena
         }
       ]
     }
@@ -133,14 +127,12 @@ const achievementSection = {
     {
       title: "English Literature Competition",
       subtitle: "Won 1st position in Inter-college English Essay Competition",
-      image: require("./assets/images/award.png"), 
       imageAlt: "Award",
       footerLink: [{ name: "View Certificate", url: "#" }]
     },
     {
       title: "Computer Operator Training",
       subtitle: "Completed 3 months training in MS Office and Data Entry",
-      image: require("./assets/images/certificate.png"),
       imageAlt: "Certificate",
       footerLink: [{ name: "View Certificate", url: "#" }]
     }
@@ -174,7 +166,7 @@ const talkSection = {
   display: true 
 };
 
-const podcastSection = { // naam change kar diya
+const podcastSection = { 
   title: "Podcasts & Talks",
   subtitle: emoji("I LOVE TO TALK ABOUT ENGLISH LITERATURE & TECH 🎙️"),
   talks: [
@@ -190,19 +182,19 @@ const podcastSection = { // naam change kar diya
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: false // Off kar diya
+  display: true // Resume button on kar diya
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3000000", // Apna number daalo
+  number: "+92-3000000", // apna number daalo
   email_address: "mazharhayatdev@gmail.com"
 };
 
 const twitterDetails = {
   userName: "twitter", 
-  display: false // Off kar diya
+  display: false 
 };
 
 const isHireable = false; 
@@ -221,7 +213,7 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection, // ab error nahi aayega
+  podcastSection, 
   contactInfo,
   twitterDetails,
   isHireable,
