@@ -98,7 +98,7 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "true", 
+  showGithubProfile: true, 
   display: true 
 };
 
@@ -112,7 +112,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/mazharhayat-dev/cafe-system" // apna github link daal dena
+          url: "https://github.com/mazharhayat-dev/cafe-system"
         }
       ]
     }
@@ -182,13 +182,13 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Resume button on kar diya
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3000000", // apna number daalo
+  number: "+92-3000000",
   email_address: "mazharhayatdev@gmail.com"
 };
 
