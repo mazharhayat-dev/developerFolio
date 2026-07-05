@@ -23,7 +23,7 @@ const greeting = {
   username: "Mazhar Hayat",
   title: "Hi all, I'm Mazhar",
   subTitle: emoji(
-    "A passionate Web Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Web design and Development 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     " https://drive.google.com/uc?export=download&id=1WheBNrj5cWo2owJd0qBiVMesbyTLUT1A", // Set to empty to hide the button
@@ -126,23 +126,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "M A in COMPUTER SCIENCE",
+      schoolName: "Govt College Bahawalpur",
+      logo: require("./assets/images/GovtLogo.png"),
+      subHeader: "ADP ENGLISH LITERATURE",
       duration: "September 2020- April 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Associated Degree Program  English Literature.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studied Poetry, Drama, Romantic and modern Literature "
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Govt Boys School Khan Bela",
+      logo: require("./assets/images/GovtLogo.png"),
+      subHeader: "General Science",
+      duration: "September 2018 - April 2020",
+      desc: "Ranked top 10% in the program. Took courses about Computer Science, State, Economics, ...",
+      descBullets: ["Relevant Coursework:Computer"]
     }
   ]
 };
@@ -157,10 +156,6 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
       Stack: "Programming",
       progressPercentage: "60%"
     }
@@ -171,32 +166,20 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, 
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Computer Operator",
+      company: "Is Cafe Sajawal", 
+      companylogo: "", // Logo nahi hai to khali chor do
+      date: "Jan 2023 – Present", 
+      location: "Khanpur",
+      desc: "Handling computer operations and customer billing at Is Cafe Sajawal",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Managing POS system and daily billing",
+        "Customer service and order management", 
+        "Data entry and record keeping"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -216,108 +199,140 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project1.png"), // project ki image. Nahi hai to line delete
+      projectName: "E-Commerce Website",
+      projectDesc: "Full stack e-commerce site with React and Node.js",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://yourprojectlink.com" // Apna link
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/yourusername/project" // GitHub link
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "build with ai",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project2.png"),
+      projectName: "Cafe Management System",
+      projectDesc: "POS and billing system made for Is Cafe Sajawal",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://mazharhayat.se/"
+          name: "GitHub",
+          url: "https://github.com/yourusername/cafe-system"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements And Certifications 🏆"),
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  
   achievementsCards: [
     {
-      title: "build with Ai t",
-      subtitle:
-        "Get a certificate from Google developer"
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "English Literature Competition",
+      subtitle: "Won 1st position in Inter-college English Essay Competition",
+      image: require("./assets/images/award.png"), // certificate ki image. Nahi hai to ye line delete
+      imageAlt: "Award",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/16YWAp78WVZ39KjsjRK8Bob-ilzSOkHd4/view?usp=drivesdk",
+          name: "View Certificate",
+          url: "https://drive.google.com/your-certificate-link" // link ho to
         }
       ]
-}
+    },
     {
-      title: "Web design and development",
-      subtitle: "Completed Certifcation from PSDF for Web design and development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PSDF Logo",
+      title: "Computer Operator Training",
+      subtitle: "Completed 3 months training in MS Office and Data Entry",
+      image: require("./assets/images/certificate.png"),
+      imageAlt: "Certificate",
       footerLink: [
         {
-          name: "Certification", url: ""},
-      
-          url:
-    }https://www.linkedin.com/posts/mazhar-hayat-64a064204_psdf-vocationaltraining-skilldevelopment-activity-7444133538381176832-VM3L?utm_source=share&utm_medium=member_android&rcm=ACoAADP6RJoBoTIUM3dxrrxA10uBmS5vtiYSLt8",
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-
-
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+          name: "View Certificate",
+          url: "https://drive.google.com/your-certificate-link"
+        }
+      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
+};
+          
+
+// Blogs Sections
+
+const blogSection = {
+  title: "Blogs",
+  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  display: true, // false kar do agar nahi dikhana
+  blogs: [
+    {
+      url: "https://yourbloglink.com/blog1", // Apne blog ka link
+      image: require("./assets/images/blog1.png"), // Blog ki image
+      title: "How to Study English Literature for ADP",
+      description: "Tips and notes for ADP English students. Poetry, Drama and Novel guide."
+    },
+    {
+      url: "https://yourbloglink.com/blog2",
+      image: require("./assets/images/blog2.png"),
+      title: "Computer Skills for Beginners",
+      description: "Basic MS Office and Data Entry tips I learned as Computer Operator"
+    }
+  ]
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
+  title: "Talks",
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE AND EXPERIENCE 🎤"),
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/mazharhayat-slides",
-      event_url: "https://www.facebook.com/100011335262733/posts/3135492530171892/?app=fbl"
+      title: "ADP English Literature Guide",
+      subtitle: "Shared tips for Poetry, Drama and Novel with students",
+      slides_url: "", // agar slides hon to link daalo
+      event_url: "",  // YouTube ya Facebook Live ka link
+      image: require("./assets/images/talk1.png") // image nahi hai to ye line delete
+    },
+    {
+      title: "Computer Skills Workshop",
+      subtitle: "Taught basic MS Office and POS system at Is Cafe Sajawal",
+      slides_url: "",
+      event_url: "",
+      image: require("./assets/images/talk2.png")
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // false kar do agar abhi nahi dikhana
 };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/-sample for this project--mazharhayat-from-khan bela--Pakistan-e9givv/a-a15itvo"
+const talkSection = {
+  title: "Podcasts & Talks",
+  subtitle: emoji("I LOVE TO TALK ABOUT ENGLISH LITERATURE & TECH 🎙️"),
+  talks: [
+    {
+      title: "English Literature Podcast",
+      subtitle: "Discussed ADP English Syllabus, Poetry and Novel",
+      slides_url: "", // agar notes hon to
+      event_url: "https://your-podcast-link.com", // Spotify, YouTube, Anchor ka link
+      image: require("./assets/images/podcast1.png") // image nahi hai to delete
+    },
+    {
+      title: "Computer Tips Podcast",
+      subtitle: "Basic computer skills for beginners and students",
+      slides_url: "",
+      event_url: "https://your-youtube-link.com", // YouTube video ka link
+      image: require("./assets/images/podcast2.png")
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Resume Section
