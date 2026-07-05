@@ -1,84 +1,59 @@
-
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
-
-// button colors
-$buttonColor: #0077ff;  // Blue
-$buttonHover: #0056b3;  // Dark Blue
+/* Modern Purple Theme */
+$buttonColor: #7c3aed;
+$buttonHover: #5b21b6;
 $topButtonHover: #000;
 
-// text colors light theme
 $titleColor: #1a1a1a;
 $textColor: #333;
-$subTitle: #6c757d;
+$subTitle: #6b7280;
 $cardSubtitle: #555;
-$talkCardSubTitle: #6c757d;
+$talkCardSubTitle: #6b7280;
 $blogCardTitleColor: #1a1a1a;
 
-// text color dark theme
 $textColorDark: #ffffff;
 
-// toggle switch colors
-$toggleCheck: #0077ff;
-$toggleSwitchSliderBG: #ccc;
+$toggleCheck: #7c3aed;
+$toggleSwitchSliderBG: #ddd;
 
-// githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0077ff;
+$githubRepoCardLanguageColorBG: #7c3aed;
 $githubRepoCardColor: rgb(88, 96, 105);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: #0077ff; // Blue links
-$githubProfileCardLocationTS: #e3f2fd;
-$githubProfileCardBorder: #0077ff;
+$githubRepoCardRepoNameColor: #7c3aed;
+$githubProfileCardLocationTS: #f3e8ff;
+$githubProfileCardBorder: #7c3aed;
 
-// light background colors
 $lightBackground1: #ffffff;
-$lightBackground2: #f8f9fa;
-$lightBackground3: #e3f2fd; // Light blue bg
+$lightBackground2: #faf5ff;
+$lightBackground3: #f3e8ff;
 $blogCardContainerColor: #586069;
-// dark background colors
-$darkBackground: #121212;
+$darkBackground: #111827;
 
-// light theme box shadows
-$lightBoxShadowDark: rgba(0, 119, 255, 0.2);
-$lightBoxShadow: rgba(0, 119, 255, 0.1);
-$lightBoxShadowDarker: rgba(0, 119, 255, 0.3);
+$lightBoxShadowDark: rgba(124, 58, 237, 0.2);
+$lightBoxShadow: rgba(124, 58, 237, 0.1);
+$lightBoxShadowDarker: rgba(124, 58, 237, 0.3);
 
-// dark theme box shadows
 $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
-// linear gradients
-$experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 119, 255, 0.4),
-  rgba(0, 119, 255, 0.2)
-);
-$experienceCardBannerLG: linear-gradient(
-  rgba(0, 119, 255, 0.7),
-  rgba(0, 119, 255, 0.5)
-);
+$experienceCardBlurredDivLG: linear-gradient(rgba(124, 58, 237, 0.4), rgba(124, 58, 237, 0.2));
+$experienceCardBannerLG: linear-gradient(rgba(124, 58, 237, 0.8), rgba(124, 58, 237, 0.6));
 
-// borders
-$progressBarBackground: #e9ecef;
-$lightBorder1: rgba(0, 119, 255, 0.2);
-$educationCardBorder: #0077ff;
+$progressBarBackground: #f3f4f6;
+$lightBorder1: rgba(124, 58, 237, 0.2);
+$educationCardBorder: #7c3aed;
 
-// hovers
-$achievementCertificateCardHoverDark: rgba(0, 119, 255, 0.2);
-$blogCardHoverSmallColor: rgba(0, 119, 255, 0.1);
-$headerHoverBG: #e3f2fd;
-$contactDetailHoverTS: #0077ff;
+$achievementCertificateCardHoverDark: rgba(124, 58, 237, 0.2);
+$blogCardHoverSmallColor: rgba(124, 58, 237, 0.1);
+$headerHoverBG: #f3e8ff;
+$contactDetailHoverTS: #7c3aed;
 
-// misc backgrounds
-$progressBarSpanBG: #0077ff;
-$iconBackground: #0077ff;
+$progressBarSpanBG: #7c3aed;
+$iconBackground: #7c3aed;
 $appHeaderBG: #ffffff;
 
-// misc colors
-$skillsColor: #0077ff;
-$appLink: #0077ff;
+$skillsColor: #7c3aed;
+$appLink: #7c3aed;
 
-// social media icons
 $faceBook: #1877f2;
 $linkedin: #0a66c2;
 $github: #333;
