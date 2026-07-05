@@ -3,12 +3,6 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
-const splashScreen = {
-  enabled: false, 
-  animation: splashAnimation,
-  duration: 2000 
-};
-
 const illustration = {
   animated: true 
 };
