@@ -17,7 +17,7 @@ const greeting = {
   username: "Mazhar Hayat",
   title: "Hi all, I'm Mazhar",
   subTitle: emoji(
-    "A Computer Operator at Is Cafe Sajawal & ADP English Literature Student 🚀 Passionate about Web Development and Teaching."
+    "A Computer Operator at Cafe Sajawal & ADP English Literature Student 🚀 Passionate about Web Development and Teaching."
   ),
   resumeLink: "https://drive.google.com/file/d/1WheBNrj5cWo2owJd0qBiVMesbyTLUT1A/view?pli=1",
   displayGreeting: true
@@ -35,7 +35,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "COMPUTER OPERATOR & WEB DEVELOPER",
   skills: [
-    emoji("⚡ Managing POS system and billing at Is Cafe Sajawal"),
+    emoji("⚡ Managing POS system and billing at Cafe Sajawal"),
     emoji("⚡ Front end Development with React and JavaScript"),
     emoji("⚡ Teaching English Literature for ADP Students")
   ],
@@ -83,8 +83,7 @@ const workExperiences = {
   experience: [
     {
       role: "Computer Operator",
-      company: "Is Cafe Sajawal", 
-      companylogo: "", 
+      company: "Cafe Sajawal",  
       date: "Jan 2023 – Present", 
       location: "Khanpur",
       desc: "Handling computer operations and customer billing at Is Cafe Sajawal",
