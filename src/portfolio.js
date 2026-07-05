@@ -23,7 +23,7 @@ const greeting = {
   username: "Mazhar Hayat",
   title: "Hi all, I'm Mazhar",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Web Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     " https://drive.google.com/uc?export=download&id=1WheBNrj5cWo2owJd0qBiVMesbyTLUT1A", // Set to empty to hide the button
@@ -252,75 +252,36 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "build with Ai t",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Get a certificate from Google developer"
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/jam mazhar hayat"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/jam mazhar hayat=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://open/google-code-hayat-sample.html"
+          url: "https://drive.google.com/file/d/16YWAp78WVZ39KjsjRK8Bob-ilzSOkHd4/view?usp=drivesdk",
         }
       ]
-    },
+}
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/00000010sample for project?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Web design and development",
+      subtitle: "Completed Certifcation from PSDF for Web design and development",
       image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      imageAlt: "PSDF Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://mazharhayat-sample.ebaseapp.com/"
-        }
-      ]
-    }
+          name: "Certification", url: ""},
+      
+          url:
+    }https://www.linkedin.com/posts/mazhar-hayat-64a064204_psdf-vocationaltraining-skilldevelopment-activity-7444133538381176832-VM3L?utm_source=share&utm_medium=member_android&rcm=ACoAADP6RJoBoTIUM3dxrrxA10uBmS5vtiYSLt8",
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
+
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
